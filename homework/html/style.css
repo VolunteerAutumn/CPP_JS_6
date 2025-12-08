@@ -1,0 +1,44 @@
+h2, h3 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+ul {
+	list-style-image: none;
+}
+
+.card {
+	display: inline-block;
+	border: 1.5px solid lightgray;
+	border-radius: 30px;
+	width: 170px;
+	height: 220px;
+	margin: 10px;
+	text-align: center;
+}
+
+.card img {
+	width: 100px;
+	height: auto;
+	padding-top: 30px;
+}
+
+hr {
+	width: 95%;
+	color: lightgray;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: lightpink;
+    transform: scale(1.05);
+}
